@@ -1,0 +1,23 @@
+[project]
+name = "evolutionfavor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "deepthought", email = "deepthough@postech.ac.kr" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fair-esm>=2.0.0",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "scipy>=1.15.3",
+    "streamlit>=1.45.1",
+    "torch>=2.7.0",
+]
+
+[project.scripts]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
